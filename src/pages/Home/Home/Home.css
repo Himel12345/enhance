@@ -1,0 +1,17 @@
+.home-content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-size: 16px;
+    color: #666;
+  }
+  .home-content {
+    margin-left: 250px; /* Offset the content by the width of the navbar */
+    padding: 20px;
+    background-color: #3d817e;
+    width: calc(100% - 250px); /* Adjust the width of the content area */
+    overflow-y: auto;
+    height: auto;
+  }
